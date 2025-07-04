@@ -2,7 +2,9 @@
 import Hero from "@/components/sections/Hero";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Features from "@/components/sections/Features";
+import Testimonials from "@/components/sections/Testimonials";
 import Audience from "@/components/sections/Audience";
+import PricingPreview from "@/components/sections/PricingPreview";
 import EarlyAccess from "@/components/sections/EarlyAccess";
 import SneakPeek from "@/components/sections/SneakPeek";
 import WaitlistForm from "@/components/sections/WaitlistForm";
@@ -14,7 +16,9 @@ const Index = () => {
       <Hero />
       <HowItWorks />
       <Features />
+      <Testimonials />
       <Audience />
+      <PricingPreview />
       <EarlyAccess />
       <SneakPeek />
       <WaitlistForm />
