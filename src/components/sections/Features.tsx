@@ -64,8 +64,13 @@ const Features = () => {
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%236366f1\" fill-opacity=\"0.02\"%3E%3Cpath d=\"M30 30m-30 0a30 30 0 1 1 60 0a30 30 0 1 1 -60 0\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]"></div>
+      {/* Background decoration using base64 encoded SVG */}
+      <div 
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM2MzY2ZjEiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PHBhdGggZD0iTTMwIDMwbS0zMCAwYTMwIDMwIDAgMSAxIDYwIDBhMzAgMzAgMCAxIDEgLTYwIDAiLz48L2c+PC9nPjwvc3ZnPg==")`
+        }}
+      ></div>
       
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center mb-20">
