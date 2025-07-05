@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Sparkles, Zap, Target, Star, Rocket } from "lucide-react";
 import Navigation from "./Navigation";
@@ -9,7 +10,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Navigation integrated into hero background */}
+      {/* Navigation at the top */}
       <Navigation />
       
       <div className="px-4 pb-20 sm:px-6 lg:px-8">
