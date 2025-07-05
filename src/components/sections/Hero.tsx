@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Sparkles, Zap, Target, Star, Rocket } from "lucide-react";
 
@@ -8,7 +7,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 px-4 py-20 sm:px-6 lg:px-8">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 px-4 pt-32 pb-20 sm:px-6 lg:px-8">
       {/* Animated background constellation */}
       <div className="absolute inset-0">
         {/* Dynamic gradient orbs with enhanced animations */}
