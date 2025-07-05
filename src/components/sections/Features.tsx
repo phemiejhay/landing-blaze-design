@@ -1,22 +1,21 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Zap, Shield, Star, Rocket, Target, Brain } from "lucide-react";
+import { ArrowRight, Zap, Shield, Star, Rocket, Target, Brain, Sparkles } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
       icon: "📊",
-      title: "Full 7-layer business audits",
+      title: "Full 7-layer business audits", 
       description: "Deep analysis across all business touchpoints with AI-powered insights that reveal hidden opportunities",
       gradient: "from-blue-500 to-cyan-500",
       bgGradient: "from-blue-50 to-cyan-50",
       hoverGradient: "from-blue-600 to-cyan-600"
     },
     {
-      icon: "⚖️", 
+      icon: "⚖️",
       title: "Competitor comparison insights",
       description: "See how prospects stack against their competition in real-time with detailed market positioning analysis",
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-purple-500 to-pink-500", 
       bgGradient: "from-purple-50 to-pink-50",
       hoverGradient: "from-purple-600 to-pink-600"
     },
