@@ -1,4 +1,5 @@
 
+import Navigation from "@/components/sections/Navigation";
 import Hero from "@/components/sections/Hero";
 import HowItWorks from "@/components/sections/HowItWorks";
 import Features from "@/components/sections/Features";
@@ -13,6 +14,7 @@ import Footer from "@/components/sections/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      <Navigation />
       <Hero />
       <HowItWorks />
       <Features />
